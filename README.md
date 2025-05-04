@@ -103,5 +103,5 @@ These findings helped shape a targeted strategy for sustainable expansion into u
 Power BI Desktop, DAX, Excel, CSV
 
 ## 📸 Sample Visuals
-![Dashboard Screenshot](image.png)
+![Dashboard Screenshot](h24faika.pdf)
 ![Map Visual](image.png)
