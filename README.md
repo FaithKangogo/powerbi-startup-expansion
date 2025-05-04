@@ -18,6 +18,7 @@ To build this dashboard, I worked with two key datasets that captured both store
 
 1. Store Performance Data
 📄 StartupExpansion.xlsx
+
 This file contains sales and marketing data for each store run by We Wash You Sleep, a laundry pickup service. Key fields included:
 
 
@@ -37,6 +38,7 @@ This dataset allowed me to calculate and compare average revenue, average market
 
 2. City Demographic Data
 📄 US-Cities-Population.csv
+
 This file provided geographic and demographic insights to support market potential analysis, including:
 
 a. City & State – For merging with store data
