@@ -54,7 +54,7 @@ e. Geolocation Coordinates – Enabled geographic visualization
 This combination of business and population data enabled a richer, more contextual analysis.
 
 ## Dashboard Highlights
-⚙️ Technical Implementation
+Technical Implementation
 The dashboard integrates both business performance and demographic data, offering stakeholders an interactive tool for exploration and decision-making.
 
 Key Features:
