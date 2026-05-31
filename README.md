@@ -104,7 +104,7 @@ Power BI Desktop, DAX, Excel, CSV
 
 ## Sample Visuals
 ![Dashboard Screenshot](image.png)
-![Dashboard Screenshot](image 2.png)
+![image 2](image 2.png)
 ![Dashboard Screenshot](image 3.png)
 ![Dashboard Screenshot](image 4.png)
 
