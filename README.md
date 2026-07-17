@@ -63,11 +63,11 @@ All 10 new cities have populations between roughly **108K and 201K**. Within tha
 
 ![Dashboard map visual](image.png)
 
-![New expansion cities view](new-expansions-view.png)
+![New expansion cities view](image4.png)
 
 *Filtered to the 10 new expansion cities. Glendale, CA leads on marketing efficiency; Brownsville, TX leads on revenue.*
 
-📄 The full report is available as a PDF: [View the dashboard export](startup-expansion-dashboard.pdf)
+📄 The full report is available as a PDF: [View the dashboard export](startupexpansiondashboard.pdf)
 
 ## Repository Contents
 
@@ -77,13 +77,15 @@ All 10 new cities have populations between roughly **108K and 201K**. Within tha
 | `startupexpansiondashboard.pdf` | PDF export of the full dashboard |
 | `StartupExpansion.xlsx` | Store performance dataset |
 | `US-Cities-Population.csv` | City demographic dataset |
-| `image.png` | Dashboard screenshot |
-| `new-expansions-view.png` | Dashboard filtered to the 10 new expansion cities |
+| `datadescription_US (1).docx` | Data dictionary for the datasets |
+| `image.png` | Dashboard overview screenshot |
+| `image2.png`, `image3.png` | Additional dashboard views |
+| `image4.png` | Dashboard filtered to the 10 new expansion cities |
 
 ## How to Explore
 
 1. Install [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free).
-2. Download and open `startup-expansion-dashboard.pbix`.
+2. Download and open `startupexpansiondashboard.pbix`.
 3. Use the slicers to filter by region, city, or expansion status. All visuals update dynamically.
 
 No Power BI? The PDF export shows the complete dashboard.
