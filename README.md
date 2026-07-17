@@ -73,8 +73,8 @@ All 10 new cities have populations between roughly **108K and 201K**. Within tha
 
 | File | Description |
 | --- | --- |
-| `startup-expansion-dashboard.pbix` | Power BI report file (open in Power BI Desktop) |
-| `startup-expansion-dashboard.pdf` | PDF export of the full dashboard |
+| `startupexpansiondashboard.pbix` | Power BI report file (open in Power BI Desktop) |
+| `startupexpansiondashboard.pdf` | PDF export of the full dashboard |
 | `StartupExpansion.xlsx` | Store performance dataset |
 | `US-Cities-Population.csv` | City demographic dataset |
 | `image.png` | Dashboard screenshot |
