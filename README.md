@@ -1,113 +1,84 @@
-# Startup Expansion Strategy Dashboard
+# Startup Expansion Strategy Dashboard — Power BI
 
-## Project Overview
-This dashboard was created as part of a Business Intelligence course project simulating a real-world challenge: advising a growing startup, We Wash You Sleep, on its regional performance and new market opportunities.
+A Power BI dashboard advising a growing startup, *We Wash You Sleep*, on regional performance and new market opportunities across 10 recently opened U.S. city locations — combining store sales data with city demographics to guide marketing investment.
 
-The company had recently opened stores in 10 new U.S. cities and wanted to know:
+**Author:** Faith Kangogo &nbsp;&nbsp; **Tools:** Power BI Desktop · DAX · Excel · CSV
 
-1. Which sales region was performing more efficiently
+## Skills Demonstrated
 
-2. Which new cities should receive additional marketing investment
+- Power BI data modelling (joining business + demographic datasets)
+- Custom DAX measures (ROMI, average revenue, average marketing spend)
+- Interactive report design (slicers, cross-filtering, map visuals)
+- Data cleaning and standardisation across sources
+- Translating analysis into an expansion strategy
 
-3. Where expansion efforts are most likely to succeed
+---
 
-The result is a Power BI dashboard that empowers stakeholders to make data-driven decisions about marketing allocation and growth strategy.
+## Business Question
 
-## The Data Behind the Dashboard
-To build this dashboard, I worked with two key datasets that captured both store performance and demographic context:
+The company opened stores in 10 new U.S. cities and needed to know:
 
-1. Store Performance Data
-StartupExpansion.xlsx
+1. Which sales region is performing more efficiently?
+2. Which new cities should receive additional marketing investment?
+3. Where are expansion efforts most likely to succeed?
 
-This file contains sales and marketing data for each store run by We Wash You Sleep, a laundry pickup service. Key fields included:
+## Data
 
+| Dataset | Contents |
+| --- | --- |
+| `StartupExpansion.xlsx` | Per-store sales region, expansion status, marketing spend, and revenue |
+| `US-Cities-Population.csv` | City population estimates, growth (2010–2015), density, and coordinates |
 
-a. Store ID – Unique identifier for each store
+The two sources were cleaned and joined in Power BI on standardised city/state fields, with missing population and marketing values handled during preparation.
 
-b. City & State – Store location
+## Approach
 
-c. Sales Region – Classified as Region 1 or Region 2
+1. **Data preparation** — cleaned and merged the Excel and CSV sources, standardised location fields.
+2. **DAX measures** — built Average Revenue, Average Marketing Spend, and **ROMI** (Revenue ÷ Marketing Spend).
+3. **Report design** — region-level bar chart comparisons, a top-10 new cities analysis, a store location map, and slicers by region, city, and expansion status.
 
-d. New Expansion – Indicates whether the store is part of the company’s recent expansion
+---
 
-e. Marketing Spend – Total marketing budget per store
+## Key Findings
 
-f. Revenue – Total revenue generated
+### 1. Region 2 spends less but earns more per marketing dollar
 
-This dataset allowed me to calculate and compare average revenue, average marketing spend, and ROMI (Return on Marketing Investment) across regions and cities.
+Region 2 achieved a **ROMI of 2.8 vs Region 1's 2.1**, despite slightly lower average marketing spend — the clearest signal of where marketing efficiency lives.
 
-2. City Demographic Data
-US-Cities-Population.csv
+### 2. San Bernardino, CA and Spokane, WA are the standout new cities
 
-This file provided geographic and demographic insights to support market potential analysis, including:
+Both combined above-average revenue with efficient marketing spend, making them the strongest candidates for increased investment.
 
-a. City & State – For merging with store data
+### 3. Mid-sized cities are the expansion sweet spot
 
-b. 2015 Population Estimate – Used to size market potential
+Cities in the **150K–300K population range** showed the best balance: large enough to scale, small enough to avoid heavy competition.
 
-c. Population Change (2010–2015) – A proxy for growth trends
+## Dashboard Preview
 
-d. Land Area & Population Density – Helped understand urban spread
+![Dashboard map visual](image.png)
 
-e. Geolocation Coordinates – Enabled geographic visualization
+📄 The full report is available as a PDF: [View the dashboard export](h24faika.pdf)
 
-This combination of business and population data enabled a richer, more contextual analysis.
+## Repository Contents
 
-## Dashboard Highlights
-Technical Implementation
-The dashboard integrates both business performance and demographic data, offering stakeholders an interactive tool for exploration and decision-making.
+| File | Description |
+| --- | --- |
+| `h24faika.pbix` | Power BI report file (open in Power BI Desktop) |
+| `h24faika.pdf` | PDF export of the full dashboard |
+| `StartupExpansion.xlsx` | Store performance dataset |
+| `US-Cities-Population.csv` | City demographic dataset |
+| `image.png` | Dashboard screenshot |
 
-Key Features:
- Custom DAX Measures for:
+## How to Explore
 
--Average Revenue
+1. Install [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free).
+2. Download and open `h24faika.pbix`.
+3. Use the slicers to filter by region, city, or expansion status — all visuals update dynamically.
 
--Average Marketing Spend
+No Power BI? The PDF export shows the complete dashboard.
 
--ROMI (Revenue ÷ Marketing Spend)
+## Possible Extensions
 
-Visualizations:
-
--Region-level comparisons via bar charts
-
--Top 10 new cities analysis based on ROMI, revenue, and population
-
--Map visual showing store locations
-
--Filters and slicers by region, city, and expansion status
-
-Interactivity:
-
--Users can filter results by city or region
-
--Dynamic updates across visuals for easier exploration
-
-Data Preparation:
-
--Cleaned and joined Excel and CSV files in Power BI
-
--Standardized location fields for merging
-
--Handled missing data in population and marketing fields
-
-## Key Insights Delivered
-1. Region 2 outperformed Region 1 in terms of marketing efficiency. Despite slightly lower average marketing spend, Region 2 achieved a higher ROMI of 2.8, compared to Region 1’s 2.1—delivering more revenue per dollar spent.
-
-2. Among the 10 new cities, San Bernardino, CA and Spokane, WA emerged as top performers, with above-average revenue and efficient marketing. These cities present strong opportunities for increased investment.
-
-3. Cities like St. Petersburg, FL, with populations exceeding 250,000, showed a strong relationship between market size and ROI. The sweet spot appears to be mid-sized cities (150K–300K)—large enough to scale but small enough to avoid high competition.
-
-These findings helped shape a targeted strategy for sustainable expansion into underserved U.S. cities.
-
-## Tools Used
-Power BI Desktop, DAX, Excel, CSV
-
-## Sample Visuals
-![Dashboard Screenshot](image.png)
-
-![Image 2](image2.png)
-
-![Image 3](image3.png)
-
-![Image 4](image4.png)
-
+- Add time-series data to track ROMI trends after marketing changes.
+- Score candidate cities with a weighted expansion index (population growth × ROMI potential).
+- Publish to Power BI Service for shareable, browser-based access.
