@@ -41,8 +41,6 @@ The two sources were cleaned and joined in Power BI on standardised city/state f
 
 ## Key Findings
 
-*All figures computed directly from the source data.*
-
 ### 1. The two regions perform almost equally, with Region 1 holding a slight edge
 
 Both regions spend nearly the same on marketing per store (about $2,890). Region 1 stores average **$40,567** revenue against Region 2's **$38,359**, giving Region 1 a ROMI of **14.0 vs 13.2**. In plain terms: both regions get roughly $13-14 back per marketing dollar, with Region 1 about 6% more efficient. There is no underperforming region to fix. This is a healthy, balanced network.
