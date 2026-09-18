@@ -4,6 +4,8 @@ A Power BI dashboard advising a growing startup, *We Wash You Sleep*, on regiona
 
 **Author:** Faith Kangogo &nbsp;&nbsp; **Tools:** Power BI Desktop · DAX · Excel · CSV
 
+📄 The full report is available as a PDF: [View the dashboard export](startupexpansiondashboard.pdf)
+
 ## Skills Demonstrated
 
 - Power BI data modelling (joining business + demographic datasets)
@@ -64,8 +66,6 @@ All 10 new cities have populations between roughly **108K and 201K**. Within tha
 ![New expansion cities view](image4.png)
 
 *Filtered to the 10 new expansion cities. Glendale, CA leads on marketing efficiency; Brownsville, TX leads on revenue.*
-
-📄 The full report is available as a PDF: [View the dashboard export](startupexpansiondashboard.pdf)
 
 ## Repository Contents
 
