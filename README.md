@@ -4,7 +4,7 @@ A Power BI dashboard advising a growing startup, *We Wash You Sleep*, on regiona
 
 **Author:** Faith Kangogo &nbsp;&nbsp; **Tools:** Power BI Desktop · DAX · Excel · CSV
 
-📄 The full report is available as a PDF: [View the dashboard export](startupexpansiondashboard.pdf)
+📄 The full PowerBI report is available as a PDF: [View the dashboard export](startupexpansiondashboard.pdf)
 
 ## Skills Demonstrated
 
